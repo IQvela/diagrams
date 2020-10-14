@@ -260,6 +260,7 @@ class Rectangle(ComponentBase, Connectable):
             position.x, position.y, lower_right.x, lower_right.y, fill=str(self.color)
         )
 
+
     @property
     def left(self):
         """
